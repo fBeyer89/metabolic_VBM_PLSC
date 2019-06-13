@@ -1,0 +1,52 @@
+name: pls
+channels: !!python/object/new:ruamel_yaml.comments.CommentedSeq
+  listitems:
+  - conda-forge
+  - defaults
+  state:
+    _yaml_format: !!python/object:ruamel_yaml.comments.Format
+      _flow_style: false
+    _yaml_line_col: !!python/object:ruamel_yaml.comments.LineCol
+      col: 2
+      data:
+        0:
+        - 1
+        - 4
+        1:
+        - 2
+        - 4
+      line: 1
+dependencies:
+- conda-forge::ca-certificates=2016.8.2=3
+- conda-forge::certifi=2016.8.2=py27_0
+- conda-forge::ncurses=5.9=8
+- conda-forge::nibabel=2.0.2=py27_0
+- conda-forge::openssl=1.0.2h=2
+- conda-forge::pip=8.1.2=py27_0
+- conda-forge::pydicom=0.9.9=py27_0
+- conda-forge::python=2.7.12=0
+- conda-forge::readline=6.2=0
+- conda-forge::setuptools=25.1.6=py27_0
+- conda-forge::sqlite=3.13.0=1
+- conda-forge::tk=8.5.19=0
+- conda-forge::wheel=0.29.0=py27_0
+- conda-forge::zlib=1.2.8=3
+- h5py=2.3.1=np18py27_0
+- hdf5=1.8.9=1
+- libgfortran=1.0=0
+- numpy=1.8.2=py27_1
+- psutil=3.2.2=py27_0
+- scikit-learn=0.14.1=np18py27_1
+- scipy=0.14.0=np18py27_0
+- pip:
+  - certifi==2016.8.2
+  - nibabel==2.0.2
+  - nilearn==0.2.5
+  - pip==8.1.2
+  - pydicom==0.9.9
+  - pypls==0.1.0
+  - pyprind==2.9.3
+  - setuptools==25.1.6
+  - wheel==0.29.0
+prefix: /home/raid1/fbeyer/local/miniconda2/envs/pls
+
